@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
     overflow-x: hidden;
+    background-color:#000;
 }
 
 .navbarContainer {
@@ -34,7 +35,6 @@
 }
 
 .navbarItem {
-    height: 80px;
 }
 
 .navbarLinks {
@@ -45,4 +45,8 @@
     padding: 0 1rem;
     display: flex;
     align-items: center;
+}
+
+.navbarLinks:hover {
+    color:blueviolet
 }
